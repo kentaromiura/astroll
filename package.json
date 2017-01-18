@@ -1,0 +1,27 @@
+{
+  "name": "astroll",
+  "version": "1.0.0",
+  "description": "Minimalistic AST walker",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kentaromiura/astroll.git"
+  },
+  "keywords": [
+    "AST",
+    "walker"
+  ],
+  "author": "Cristian Carlesso <@kentaromiura>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kentaromiura/astroll/issues"
+  },
+  "homepage": "https://github.com/kentaromiura/astroll#readme",
+  "devDependencies": {
+    "babylon": "^6.15.0",
+    "jest": "^18.1.0"
+  }
+}

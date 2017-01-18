@@ -1,0 +1,17 @@
+ASTroll
+=======
+
+ASTroll is a barebone ast walker that keeps track of the parents
+
+
+How to use:
+===========
+```
+const walker = require('astroll');
+
+walker(node, visitors, state);
+```
+
+where node is an AST node, visitors is an object map of ast types to a function that accept the node, a shared state object and a parents array.
+look at the test folder for an example.
+
